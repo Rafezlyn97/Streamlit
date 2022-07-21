@@ -10,6 +10,7 @@ st.write("""
 ## This is a second-level heading
 """)
 
+st.header("Table")
 st.write(pd.DataFrame({
     'Intplan': ['yes', 'yes', 'yes', 'no'],
     'Churn Status': [0, 0, 0, 1]
